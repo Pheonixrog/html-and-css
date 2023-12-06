@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:#CDB4DB;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 30%;
+    border: 5px solid #FFAFCC;
+    
+}
+
+.heading{
+    background-color: #FFAFCC;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    
+
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   
+    
+}
+
+.pass {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+    
+    
+}
+
+input {
+        height: 45px;
+        width: 60%;
+        border: none;
+}
+
+
+.image{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFAFCC ;
+    height: 45px;
+    width: 40px;
+
+}
+
+.forget{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+    
+}
+
+.login button{
+    height: 45px;
+    width: 65%;
+    background-color:#FFAFCC ;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.color{
+    color: white;
+}
+
+
+
